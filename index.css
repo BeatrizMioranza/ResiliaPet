@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2? family= Patua+One & display=swap');
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+    font-family: 'Patua One', sans-serif;
+}
+.links {
+    color: black;
+}
+.links:hover {
+      color:white;
+      
+}
+nav{
+    display: flex;
+    gap:50px;
+    padding-right: 50px;
+    color: black;
+    font-size: larger;
+    background-color:#d62828;
+    padding:25px;
+}
+#titulo{
+    margin-left: 30px;
+
+}
+#titulo:hover{
+    font-size: 3em;
+}
+#imagemprincipal{ 
+    background: url(./fotoprincipal.png);
+    background-repeat: no-repeat;
+}
+#textoprincipal{ 
+      text-align: center;
+      font-family: 'Patua One', sans-serif;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      position: absolute;
+      color:black;
+      top: 200px;
+      width: 800px;
+      line-height: 30px;
+      height: 30px;
+}
+strong{
+    color:#f77f00;
+}
+h3{
+    background-color:#f77f00;
+    text-align: center;
+    padding:15px;
+    font-family: 'Patua One', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+
+}
+.textomotivos{
+    font-family: 'Patua One', sans-serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    background-color:#003049;
+    
+}
+li {
+    list-style-type: none;
+    line-height:55px;
+  }
+li::before {
+    content: "\01F43E";
+    color: #eae2b7;
+    
+}
+.fotodois{
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.conheca{
+    background-color:#eae2b7;
+    text-align: center;
+    padding:15px;
+    font-family: 'Patua One', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+.botao{
+    display: flex;
+    justify-content:center;
+    gap:9px; 
+    padding-top: 20px;
+    background-color: #eae2b7;
+}
+button:hover{
+    font-size: 3em;
+    background-color: #eae2b7; 
+    color: #f77f00;
+}
+button{
+    background-color: #f77f00;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 12px 20px;
+    text-align: center;
+    width: 800px;
+    font-family: 'Patua One', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+
+}
+.cachorro{
+    background-color:#eae2b7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+.gato{
+    background-color:#eae2b7;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+.foto{
+    background-color:#eae2b7;
+    display: flex;
+}
+.imagem{
+    border:3px solid #fcbf49;
+    width: 200px;
+    height: 200px;
+    border-radius: 5% 5% 0 0;
+}
+footer{
+    background-color:#003049;
+
+}
+.textofinal{
+    text-align: center;
+    color: #eae2b7;
+    padding: 50px;
+    width: 100%;
+    height: 70px;
+}
+:root{
+    --color1:#003049;
+    --color2:#d62828;
+    --color3:#f77f00;
+    --color4:#fcbf49;
+    --color5:#eae2b7;
+}
