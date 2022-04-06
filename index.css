@@ -16,6 +16,7 @@ header{
     align-items: center;
     color: white; 
     font-family: 'Patua One', sans-serif;
+    
 }
 .links {
     color: black;
@@ -30,12 +31,11 @@ nav{
     padding-right: 50px;
     color: black;
     font-size: larger;
-    background-color:#d62828;
+    background-color:#f77f00;
     padding:25px;
 }
 #titulo{
     margin-left: 30px;
-
 }
 #titulo:hover{
     font-size: 3em;
@@ -71,10 +71,12 @@ h3{
 .textomotivos{
     font-family: 'Patua One', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     background-color:#003049;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 li {
@@ -83,14 +85,7 @@ li {
   }
 li::before {
     content: "\01F43E";
-    color: #eae2b7;
-    
-}
-.fotodois{
-    margin-left: 200px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
+    color: #eae2b7;  
 }
 .conheca{
     background-color:#eae2b7;
@@ -116,13 +111,12 @@ button{
     background-color: #f77f00;
     border-radius: 10px;
     border-width: 1px;
-    padding: 12px 20px;
+    padding: 8px 10px;
     text-align: center;
-    width: 800px;
+    width: 600px;
     font-family: 'Patua One', sans-serif;
     font-size: 36px;
     line-height: 36px;
-
 }
 .cachorro{
     background-color:#eae2b7;
@@ -144,23 +138,44 @@ button{
     padding: 30px;
 }
 .foto{
-    background-color:#eae2b7;
+    background-color: white;
     display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius: 15px;
+    border: 10px solid white;
+    
 }
 .imagem{
-    border:3px solid #fcbf49;
     width: 200px;
     height: 200px;
     border-radius: 5% 5% 0 0;
 }
+figcaption{
+    background-color: #f77f00;
+    border: 1px solid #f77f00;
+    border-radius: 10px;
+    font-weight:bold;
+    font-family: 'Patua One', sans-serif;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 10px;
+}
+figcaption:hover{
+    background-color: #eae2b7; 
+    color: #f77f00;
+}
 footer{
     background-color:#003049;
-
 }
 .textofinal{
     text-align: center;
-    color: #eae2b7;
-    padding: 50px;
+    color: white;
+    padding: 30px;
     width: 100%;
     height: 70px;
 }
