@@ -5,22 +5,13 @@
         height: auto;
         display: flex;
     }
-      nav{
+    nav{
           display:none;
     }
-    h1{
-        display:none; 
-    }
-    h2{
-        display: none;
-        /* font-size:40px;
-        color:white;
-        display: flex;
-        align-items: flex-start;
-        padding: 0px 30px; */
-    }
-    .textomedia{
-        display: none;
-    }
 
+    #textoprincipal{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
  }
